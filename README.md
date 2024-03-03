@@ -52,5 +52,43 @@ https://medium.com/@afaf101/exploring-sparkify-unveiling-user-dynamics-with-apac
 ## Contents of The Repository
 * Juputer notebook
 * Html
-* Readme   
+* Readme
+
+## Libraries used
+1. **pyspark:**
+   - `SparkSession`
+   - `IntegerType`
+   - `Window`
+   - `Pipeline`
+   - `LogisticRegression`
+   - `RandomForestClassifier`
+   - `GBTClassifier`
+   - `LinearSVC`
+   - `MulticlassClassificationEvaluator`
+   - `Corizer`
+   -untVecto `IDF`
+   - `Normalizer`
+   - `StandardScaler`
+   - `StringIndexer`
+   - `VectorAssembler`
+   - `CrossValidator`
+   - `ParamGridBuilder`
+   - `fcountDistinct`, `fsum`, `fmin`, `fmax`, `fcount`, `split`, `avg`, `col`, `concat`, `desc`, `explode`, `lit`, `min`, `max`, `udf`
+
+2. **statsmodels:**
+   - `proportions_ztest`
+
+3. **matplotlib:**
+
+4. **seaborn:**
+
+5. **Standard Python Libraries:**
+   - `datetime`
+   - `time`
+   - `pandas` (aliased as `pd`)
+   - `numpy` (aliased as `np`)
+
+## Acknowledgement
+I want to convey my heartfelt appreciation to Udacity for providing the dataset and to IBM Watson for collaborating with Udacity, generously offering indispensable cloud services at no cost for the completion of this project.
+
 
